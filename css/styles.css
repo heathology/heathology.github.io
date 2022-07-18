@@ -4,13 +4,8 @@
     margin-right: auto;
 }
 
-h1, p {
+h1, p, nav {
     text-align: center; 
 }
 
-nav {
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
+
