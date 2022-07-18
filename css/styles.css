@@ -15,7 +15,8 @@ nav {
 .content {
     width: 80%;
     background-color: #ffffff;
-    
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     max-width: 500px;
     color: #000000;
