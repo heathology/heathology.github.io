@@ -9,6 +9,7 @@ h1, p {
 }
 
 nav {
-    display: inline-block;
+    display: block;
     text-align: center;
+    margin: 1em auto;
 }
