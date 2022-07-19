@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet" />
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">Welcome! Please use the form below to leave comments about your experience with Heath Media Designs.</p>
+<form>
+  <fieldset>
+    <label id="name-label">Enter Your Name: <input id="name" type="text" required placeholder="Type Your Name"></label>
+  <label id="email-label">Enter your Email: <input id="email" type="email" required placeholder="Type Your Email"></label>
+  <label id="number-label">Enter Your Age (optional): <input id="number" type="number" min="13" max="120" placeholder="Type Your Age">
+  </fieldset>
+  <fieldset>
+    <label>Which option best describes your current role? <select name="dropdown" id="dropdown">
+      <option value="">(Select one)</option>
+      <option value="Student">Student</option>
+      <option value="Full-Time-Job">Full-Time Job</option>
+      <option value="Part-Time-Job">Part-Time Job</option>
+      <option value="Unemployed">Unemployed</option>
+      <option value="Retired">Retired</option>
+      </select>
+      </label>
+  </fieldset>
+  <fieldset>
+    <legend>Would you recommend Heath Media Designs to a friend?</legend>
+    <label><input type="radio" name="referral" value="1">Definitely</label>
+   <label><input type="radio" name="referral" value="2">Maybe</label>
+   <label><input type="radio" name="referral" value="3">Not sure</label>
+    </fieldset>
+    <fieldset>
+    <p>What type of projects would you be interested in? (Check all that apply)</p><label>
+      <input type="checkbox" name="newsletter" value="Newsletter" class="input-checkbox"> Newsletter</label>
+      <label><input type="checkbox" name="blog" value="Blog" class="input-checkbox"> Blog</label>
+      <label><input type="checkbox" name="online-store" value="online-store" class="input-checkbox"> Online Store</label>
+      <label><input type="checkbox" name="church-website" value="Church Website" class="input-checkbox"> Church Website</label>
+  </fieldset>
+  <fieldset>
+    <label>Any comments or suggestions?
+      <textarea name="comments" rows="3" cols="30" placeholder="Place any comments you have here."></textarea>
+    </label>
+  </fieldset>
+  <input type="submit" id="submit" value="Submit" />
+</form>
+</body>
+</html>
