@@ -190,3 +190,22 @@ form {
   cursor: pointer;
 }
 
+footer {
+  text-align:center;
+}
+
+a {
+  color: rgb(20, 218, 126);
+}
+
+a:visited {
+  color: rgb(20, 218, 126);
+}
+
+a:hover {
+  color: rgb(20, 218, 126);
+}
+
+a:active {
+  color: rgb(20, 218, 126);
+}
