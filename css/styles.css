@@ -32,8 +32,9 @@ h1, p {
 	  max-width: 540px;
 	}
 	.logo {
-		align-content:center;
-		max-width: 540px;
+		align-content: center;
+		width: 100%;
+		height: auto;
 	}
   }
   
@@ -42,8 +43,10 @@ h1, p {
 	  max-width: 720px;
 	}
 	.logo {
-		align-content:center;
-		max-width: 720px;
+		align-content: center;
+		width: 100%;
+		height: auto;
+
 	}
   }
 
