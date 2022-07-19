@@ -31,11 +31,17 @@ h1, p {
 	.content {
 	  max-width: 540px;
 	}
+	.logo {
+		align-content:center;
+	}
   }
   
   @media (min-width: 768px) {
 	.content {
 	  max-width: 720px;
+	}
+	.logo {
+		align-content:center;
 	}
   }
 
