@@ -1,7 +1,11 @@
+/* CSS file, created by heathology, https://heathology.github.io/, on 7.17.2002. 
+Gradient buttons adapted from Zach Cole (https://codepen.io/zachacole/pen/KdGzgb).*/
+
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
+/* logo */
 .logo {
     display: block;
     margin-left: auto;
@@ -12,17 +16,128 @@ h1, p {
     text-align: center; 
 }
 
-.nav {
-    text-align: center;
-}
-
+/* Main Content Container */
 .content {
     width: 80%;
-    background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     max-width: 520px;
     color: #000000;
     text-align: center;
+}
+
+/* Project Navigation Links */
+.nav {
+    text-align: center;
+}
+
+/* infite gradient shift on hover buttons */
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+
+.inner
+{
+    display: inline-block;
+}
+
+.button-container {
+	text-align: center;
+	position: relative;
+	width: 220px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+button {
+	position: relative;
+	height: 50px;
+	width: 180px;
+	border: 0;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	overflow: hidden;
+	box-shadow: 0 4px 12px 0 rgba(152, 160, 180, 10);
+	z-index: -2;
+    display: inline-block;
+}
+
+.button-one {
+}
+
+.fill-one {
+	position: absolute;
+	background-image: linear-gradient(to right, #E040FB, #00BCD4);
+	height: 70px;
+	width: 320px;
+	border-radius: 5px;
+	margin: -40px 0 0 -140px;
+	z-index: -1;
+	transition: all 0.4s ease;
+}
+
+.button-container-one:hover .fill-one {
+	-webkit-transform: translateX(100px);
+	-moz-transform: translateX(100px);
+	transform: translateX(100px);
+}
+
+.fill-two {
+	position: absolute;
+	background-image: linear-gradient(to right, #E040FB, #00BCD4);
+	background-size: 150% 150%;
+	height: 70px;
+	width: 320px;
+	border-radius: 5px;
+	margin: -40px 0 0 -140px;
+	z-index: -2;
+	transition: all 0.4s ease;
+}
+
+.button-container-two:hover .fill-two {
+	-webkit-animation: gradient 3s ease infinite;
+	-moz-animation: gradient 3s ease infinite;
+	animation: gradient 3s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-moz-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
