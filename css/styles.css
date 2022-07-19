@@ -27,6 +27,18 @@ h1, p {
     text-align: center;
 }
 
+@media (min-width: 576px) {
+	.content {
+	  max-width: 540px;
+	}
+  }
+  
+  @media (min-width: 768px) {
+	.content {
+	  max-width: 720px;
+	}
+  }
+
 /* Project Navigation Links */
 .nav {
     text-align: center;
@@ -66,7 +78,10 @@ button {
 	box-shadow: 0 4px 12px 0 rgba(152, 160, 180, 10);
 	z-index: -2;
     display: inline-block;
+	color:aliceblue;
 }
+
+
 
 .button-one {
 }
