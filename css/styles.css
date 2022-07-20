@@ -10,6 +10,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+	width: 100%;
+	height: auto;
 }
 
 h1, p {
@@ -31,13 +33,23 @@ h1, p {
 	.content {
 	  max-width: 540px;
 	}
+	
   }
   
   @media (min-width: 768px) {
 	.content {
 	  max-width: 720px;
 	}
+	
   }
+
+/* 2778x1284 pixels at 458ppi */
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+	
+	}
 
 /* Project Navigation Links */
 .nav {
@@ -81,10 +93,6 @@ button {
 	color:aliceblue;
 }
 
-
-
-.button-one {
-}
 
 .fill-one {
 	position: absolute;
