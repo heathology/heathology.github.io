@@ -12,6 +12,7 @@ body {
     margin-right: auto;
 	width: 100%;
 	height: auto;
+	max-width: 336px;
 }
 
 h1, p {
