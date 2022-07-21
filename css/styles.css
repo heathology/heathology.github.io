@@ -30,20 +30,19 @@ h1, p {
     text-align: center;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 	.content {
-	  max-width: 540px;
-	}
-	
+		width: 50%;
+	  }
+	 
   }
   
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
 	.content {
-	  max-width: 720px;
+	  width: 50%;
 	}
 	
-  }
-
+}
 /* 2778x1284 pixels at 458ppi */
 @media only screen 
     and (device-width: 428px) 
