@@ -97,6 +97,10 @@ button {
 	color:aliceblue;
 }
 
+.button-two-line
+{
+	vertical-align: super;
+}
 
 .fill-one {
 	position: absolute;
