@@ -77,6 +77,10 @@ h1, p {
 	cursor: pointer;
 }
 
+.button-container a {
+    display: block;
+}
+
 button {
 	position: relative;
 	height: 50px;
