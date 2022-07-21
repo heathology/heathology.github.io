@@ -37,6 +37,12 @@
       width: 50%;
     }
   }
+
+  @media (max-width: 600px) {
+    #gallery img {
+      width: 100%;
+    }
+ }
   
   .footer {
     text-align: center;
