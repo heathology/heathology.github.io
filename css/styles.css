@@ -151,6 +151,61 @@ button {
 	-moz-transform: translateX(100px);
 	transform: translateX(100px);
 }
+
+.fill-four {
+	position: absolute;
+	background-image: linear-gradient(to right, #E040FB, #00BCD4);
+	background-size: 150% 150%;
+	height: 70px;
+	width: 320px;
+	border-radius: 5px;
+	margin: -40px 0 0 -140px;
+	z-index: -2;
+	transition: all 0.4s ease;
+}
+
+.button-container-three:hover .fill-four {
+	-webkit-transform: translateX(100px);
+	-moz-transform: translateX(100px);
+	transform: translateX(100px);
+}
+
+.fill-five {
+	position: absolute;
+	background-image: linear-gradient(to right, #E040FB, #00BCD4);
+	background-size: 150% 150%;
+	height: 70px;
+	width: 320px;
+	border-radius: 5px;
+	margin: -40px 0 0 -140px;
+	z-index: -2;
+	transition: all 0.4s ease;
+}
+
+.button-container-five:hover .fill-five {
+	-webkit-transform: translateX(100px);
+	-moz-transform: translateX(100px);
+	transform: translateX(100px);
+}
+
+.fill-six {
+	position: absolute;
+	background-image: linear-gradient(to right, #E040FB, #00BCD4);
+	background-size: 150% 150%;
+	height: 70px;
+	width: 320px;
+	border-radius: 5px;
+	margin: -40px 0 0 -140px;
+	z-index: -2;
+	transition: all 0.4s ease;
+}
+
+.button-container-six:hover .fill-six {
+	-webkit-transform: translateX(100px);
+	-moz-transform: translateX(100px);
+	transform: translateX(100px);
+}
+
 @-webkit-keyframes gradient {
 	0% {
 		background-position: 0% 50%;
