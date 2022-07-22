@@ -102,6 +102,11 @@ button {
 	vertical-align: super;
 }
 
+.button-three-line
+{
+	vertical-align: super;
+}
+
 .fill-one {
 	position: absolute;
 	background-image: linear-gradient(to right, #E040FB, #00BCD4);
@@ -210,6 +215,23 @@ button {
 	transform: translateX(100px);
 }
 
+.fill-seven {
+	position: absolute;
+	background-image: linear-gradient(to right, #E040FB, #00BCD4);
+	background-size: 150% 150%;
+	height: 80px;
+	width: 320px;
+	border-radius: 5px;
+	margin: -60px 0 0 -140px;
+	z-index: -2;
+	transition: all 0.4s ease;
+}
+
+.button-container-seven:hover .fill-seven {
+	-webkit-transform: translateX(100px);
+	-moz-transform: translateX(100px);
+	transform: translateX(100px);
+}
 @-webkit-keyframes gradient {
 	0% {
 		background-position: 0% 50%;
