@@ -98,4 +98,24 @@ html {
     margin: 0 auto 50px auto;
     text-align: left;
   }
+
+  footer {
+    text-align:center;
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:active {
+    color: rgb(0, 0, 0);
+  }
   
