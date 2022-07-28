@@ -151,3 +151,23 @@ span[class~="sr-only"] {
   tr.data td:last-of-type {
     padding-right: 0.5rem;
   }
+
+  footer {
+    text-align:center;
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:active {
+    color: rgb(0, 0, 0);
+  }
