@@ -83,38 +83,35 @@ h1, p {
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
    }
-
   
-  /* Demo Stuff End -> */
-  
-  /* <- Magic Stuff Start */
+  /* <- buton css starts */
   
   .btn:hover {
     background-position: right center; /* change the direction of the change here */
   }
   
   .btn-1 {
-    background-image: linear-gradient(to right, #60101D 20%, #2700d4 50%, #60101D 100%);
+    background-image: linear-gradient(to right, #60101D 20%, #2D2D82 50%, #60101D 100%);
   }
   
   .btn-2 {
-    background-image: linear-gradient(to right, #60101D 0%, #2700d4 50%, #60101D 100%);
+    background-image: linear-gradient(to right, #60101D 0%, #2D2D82 50%, #60101D 100%);
   }
   
   .btn-3 {
-    background-image: linear-gradient(to right, #60101D 0%, #2700d4 50%, #60101D 100%);
+    background-image: linear-gradient(to right, #60101D 0%, #2D2D82 50%, #60101D 100%);
   }
   
   .btn-4 {
-    background-image: linear-gradient(to right, #60101D 0%, #2700d4 50%, #60101D 100%);
+    background-image: linear-gradient(to right, #60101D 0%, #2D2D82 50%, #60101D 100%);
   }
   
   .btn-5 {
-    background-image: linear-gradient(to right, #60101D 0%, #2700d4 50%, #60101D 100%);
+    background-image: linear-gradient(to right, #60101D 0%, #2D2D82 50%, #60101D 100%);
   }
 
   
-  /* Magic Stuff End -> */
+  /* button css ends -> */
 
   a:link { text-decoration: none; }
 
