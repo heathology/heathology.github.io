@@ -123,3 +123,10 @@ a:hover { text-decoration: none; }
 
 
 a:active { text-decoration: none; }
+
+.footer {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  
+}
