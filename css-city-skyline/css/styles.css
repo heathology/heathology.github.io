@@ -307,6 +307,7 @@
     --window-color2: #777;
     --window-color3: #777;
     --window-color4: #777;
+    --night-links: #fff;
     }
     .sky {
       background: radial-gradient(
@@ -317,39 +318,13 @@
           #223 100%
         );
     }
-      a {
-        color: #fff;
-      }
-      
-      a:visited {
-        color: #fff;
-      }
-      
-      a:hover {
-        color: #fff;
-      }
-      
-      a:active {
-        color: #fff;
-      }
+    a, a:where(:hover, :visited, :active) {
+      color: var(--night-links);
+    }
   }
-    
-  footer {
-    text-align:center;
-  }
-  
-  a {
-    color: rgb(0, 0, 0);
-  }
-  
-  a:visited {
-    color: rgb(0, 0, 0);
-  }
-  
-  a:hover {
-    color: rgb(0, 0, 0);
-  }
-  
-  a:active {
-    color: rgb(0, 0, 0);
+
+  @media (min-width: 1001px) {
+    a, a:where(hover, :visited, :active) {
+      color: black;
+    }
   }
