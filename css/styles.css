@@ -113,9 +113,11 @@ img {
 
 .jesse-pic {
   display: block;
-  max-width: 250px;
+  max-width: 400px;
   border-radius: 50%;
 }
+
+
 
 /* nav */
 
@@ -179,6 +181,16 @@ img {
 
 .intro {
   color: #333333;
+}
+
+.about {
+  margin-bottom: 50px;
+  align-content: center;
+}
+
+.bio {
+  color: var(--main-red);
+  
 }
 
 /* Projects section */
