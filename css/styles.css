@@ -3,6 +3,7 @@
   --main-white: #f0f0f0;
   --main-red: #630E17;
   --main-blue: #302D7D;
+  --main-purple: #382A70;
   --main-gray: #303841;
 }
 
@@ -111,11 +112,7 @@ img {
   max-width: 500px;
 }
 
-.jesse-pic {
-  display: block;
-  max-width: 400px;
-  border-radius: 50%;
-}
+
 
 
 
@@ -183,15 +180,65 @@ img {
   color: #333333;
 }
 
-.about {
-  margin-bottom: 50px;
-  align-content: center;
+.intro-section {
+  color: #333333;
+  text-align: center;
+    padding: 10rem 2rem;
+
 }
 
-.bio {
-  color: var(--main-red);
-  
+#intro-grid {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.jesse-pic {
+  display: block;
+  max-width: 400px;
+  border-radius: 50%;
+}
+
+.intro-list{
+  color: var(--main-purple);
+  margin: auto;
+  padding: 5px 10px;
+  
+  }
+
+    .Aligner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .Aligner-item {
+      max-width: 100%;
+    }
+  
+    .Aligner-item--top {
+      align-self: flex-start;
+    }
+  
+    .Aligner-item--bottom {
+      align-self: flex-end;
+    }
 
 /* Projects section */
 
