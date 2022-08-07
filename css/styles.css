@@ -216,29 +216,14 @@ img {
 }
 
 .intro-list{
+  display: flex;
   color: var(--main-purple);
   margin: auto;
   padding: 5px 10px;
-  
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   }
-
-    .Aligner {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .Aligner-item {
-      max-width: 100%;
-    }
-  
-    .Aligner-item--top {
-      align-self: flex-start;
-    }
-  
-    .Aligner-item--bottom {
-      align-self: flex-end;
-    }
 
 /* Projects section */
 
